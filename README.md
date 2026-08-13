@@ -13,8 +13,13 @@ A lightweight Chrome extension for saving, resuming, and managing browser tab se
 
 ## Screenshots
 
-![Revive popup UI](screenshot1.png)
-![Revive popup UI](screenshot2.png)
+Main Page:
+
+![Revive popup UI](Screenshot1.png)
+
+Save Session:
+
+![Revive popup UI](Screenshot2.png)
 
 ## Installation
 
