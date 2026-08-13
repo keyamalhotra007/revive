@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Revive",
+  "version": "1.0",
+  "description": "Save and restore groups of tabs as named sessions",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Revive"
+  },
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "popup.js"
+  }
+}

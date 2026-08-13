@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <a href="popup.html" target="_self" style="text-decoration: none;">
+        <button class="back-to-main" type="button" id="back-to-main">Back</button>
+    </a>  
+    <div class="header">
+      <h3>revive</h3>
+      <div class="status-panel">
+      <span class="status-dot"></span>
+      <span style="font-size: 12px;" id="tab-count-text"></span>
+      </div>
+    </div> 
+
+    <p>CREATE NEW SESSION</p>
+      <form class="session-form">
+      <input class="session-name-input" type="text" id="session-name" name="session-name" placeholder="Enter session name here...">
+      <button class="create" type="button" id="create">Create</button>
+      </form>
+    
+    <p>REPLACE EXISTING SESSION</p>
+    <div class="session-list-select" id="session-list">
+    <!-- empty, JS fills this -->
+    </div>
+<script src="popup_savesession.js"></script>
+</body>
+</html>

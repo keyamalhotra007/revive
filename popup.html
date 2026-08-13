@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="header">
+      <h3>revive</h3>
+      <div class="status-panel">
+      <span class="status-dot"></span>
+      <span style="font-size: 12px;" id="tab-count-text"></span>
+      </div>
+    </div> 
+    <div style="display: flex; flex-direction: column; gap: 5px;">
+    <a href="popup_savesession.html" target="_self" style="text-decoration: none;"">
+        <button class="save-session" type="button" id="save-session"">Save Current Session</button>
+    </a>  
+    <button class="close-session" type="button" id="close-session" ">Close Current Session</button>
+    </div>
+    <p>SAVED SESSIONS</p>
+    <div class="session-list" id="session-list">
+    <!-- empty, JS fills this -->
+    </div>
+<script src="popup.js"></script>
+</body>
+</html>
